@@ -1,0 +1,99 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\!Eric\\!autoFormation\\try-samples-main\\LINQ\\src\\LINQ.csproj": {}
+  },
+  "projects": {
+    "D:\\!Eric\\!autoFormation\\try-samples-main\\LINQ\\src\\LINQ.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\!Eric\\!autoFormation\\try-samples-main\\LINQ\\src\\LINQ.csproj",
+        "projectName": "LINQ",
+        "projectPath": "D:\\!Eric\\!autoFormation\\try-samples-main\\LINQ\\src\\LINQ.csproj",
+        "packagesPath": "C:\\Users\\eric.perennes\\.nuget\\packages\\",
+        "outputPath": "D:\\!Eric\\!autoFormation\\try-samples-main\\LINQ\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "D:\\!Eric\\!autoFormation\\try-samples-main\\NuGet.Config",
+          "C:\\Users\\eric.perennes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://dotnetfeed.blob.core.windows.net/dotnet-core/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/MachineLearning/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-eng/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-public/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet3.1/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet5/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "System.CommandLine.DragonFruit": {
+              "target": "Package",
+              "version": "[0.3.0-alpha.19405.1, )"
+            },
+            "System.CommandLine.Experimental": {
+              "target": "Package",
+              "version": "[0.3.0-alpha.19405.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.212\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
